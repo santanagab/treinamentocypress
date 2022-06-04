@@ -35,8 +35,5 @@ describe('Teste de Preenchimento de Formulário', () => {
         cy.get('#error_explanation > ul > li:nth-child(1)').should('have.text', 'Email translation missing: pt-BR.activerecord.errors.models.user.attributes.email.blank')
         cy.get('#error_explanation > ul > li:nth-child(2)').should('have.text', 'Email translation missing: pt-BR.activerecord.errors.models.user.attributes.email.invalid')
 
-
-
-
     });
 })
